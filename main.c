@@ -24,13 +24,16 @@ float average(float a, float b, float c)
 
 int main()
 {
-  float v1, v2, v3, result;
+  float v1, v2, v3; /*Input Variables. */
+  float result;     /*Output Variable. */
 
   v1 = 10;
   v2 = 20;
-  v3 = 60; 
-  
-  result = average (v1, v2, v3);
+  v3 = 60;
+
+  result = (v1+v2+v3)/3;
+  /*printf("v1 vale %f, v2 vale%f, v3 vale %f\n") */
+  printf("A media e = %f\n", result);
 
   return 0 ;
 }
